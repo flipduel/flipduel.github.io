@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flip Duel - Free Parkour Flipping Game Online Official Site</title>
+  <meta name="description" content="Play Flip Duel free in your browser. Stick landings, unlock flip skills, and challenge a friend in local 2-player parkour duels.">
+  <link rel="canonical" href="https://flipduel.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flip Duel">
+  <meta property="og:url" content="https://flipduel.io/">
+  <meta property="og:title" content="Flip Duel - Free Parkour Flipping Game Online">
+  <meta property="og:description" content="Play Flip Duel free in your browser. Stick landings, unlock flip skills, and challenge a friend in local 2-player parkour duels.">
+  <meta property="og:image" content="https://flipduel.io/assets/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Flip Duel - Free Parkour Flipping Game Online">
+  <meta name="twitter:description" content="Play Flip Duel free in your browser. Stick landings, unlock flip skills, and challenge a friend in local 2-player parkour duels.">
+  <meta name="twitter:image" content="https://flipduel.io/assets/logo.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#07111f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/config.js"></script>
+  <script src="js/analytics.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.gamevgames.com/#organization",
+          "name": "gameVgames",
+          "url": "https://www.gamevgames.com"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://flipduel.io/#website",
+          "url": "https://flipduel.io/",
+          "name": "Flip Duel",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://www.gamevgames.com/#organization" }
+        },
+        {
+          "@type": ["VideoGame", "WebApplication"],
+          "@id": "https://flipduel.io/#game",
+          "name": "Flip Duel",
+          "url": "https://flipduel.io/",
+          "description": "Flip Duel is a free browser parkour flipping game with 1 Player campaign, local 2 Player duels, and FreeStyle mode.",
+          "image": "https://flipduel.io/assets/logo.png",
+          "inLanguage": "en",
+          "isAccessibleForFree": true,
+          "datePublished": "2026-09-08",
+          "author": { "@id": "https://www.gamevgames.com/#organization" },
+          "publisher": { "@id": "https://www.gamevgames.com/#organization" },
+          "creator": { "@id": "https://www.gamevgames.com/#organization" },
+          "genre": ["Parkour", "Action", "Sports", "Physics"],
+          "playMode": ["SinglePlayer", "MultiPlayer"],
+          "gamePlatform": ["Web browser", "Mobile web", "Desktop"],
+          "applicationCategory": "GameApplication",
+          "operatingSystem": "Any",
+          "browserRequirements": "Requires JavaScript and HTML5",
+          "numberOfPlayers": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 2
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "sameAs": [
+            "https://www.gamevgames.com",
+            "https://www.twoplayergames.org/game/flip-duel"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://flipduel.io/#faq",
+          "url": "https://flipduel.io/#how-to-play",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is Flip Duel free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Play it in the browser with no download."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I play with a friend?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Use 2 Player mode on the same computer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Flip Duel work on mobile?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Touch controls work on phone and tablet."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.544.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="topbar-logo" href="/" aria-label="Flip Duel home">
+      <img src="assets/logo.png" alt="Flip Duel">
+    </a>
+    <details class="popular-games" id="popularGames" open>
+      <summary class="popular-toggle">
+        <span class="popular-label-text">TOP 10 Games</span>
+        <span class="popular-arrows" aria-hidden="true">
+          <span class="popular-arrow"></span>
+          <span class="popular-arrow"></span>
+          <span class="popular-arrow"></span>
+        </span>
+      </summary>
+      <div class="popular-panel">
+        <span class="popular-label">
+          <span class="popular-label-text">Most Popular Games</span>
+          <span class="popular-arrows" aria-hidden="true">
+            <span class="popular-arrow"></span>
+            <span class="popular-arrow"></span>
+            <span class="popular-arrow"></span>
+          </span>
+        </span>
+        <div class="popular-list">
+          <a class="popular-item" href="https://www.gamevgames.com/game/basket-random" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_basket_random" data-name="Basket Random" aria-label="Basket Random">
+            <img src="assets/thumbs/basket-random.webp" alt="Basket Random" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/soccer-random" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_soccer_random" data-name="Soccer Random" aria-label="Soccer Random">
+            <img src="assets/thumbs/soccer-random.webp" alt="Soccer Random" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/lolbeans" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_lol_beans" data-name="Lol Beans" aria-label="Lol Beans">
+            <img src="assets/thumbs/lolbeans.webp" alt="Lol Beans" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/bloxd-io" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_bloxd" data-name="Bloxd.io" aria-label="Bloxd.io">
+            <img src="assets/thumbs/bloxd-io.webp" alt="Bloxd.io" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/granny" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_granny" data-name="Granny" aria-label="Granny">
+            <img src="assets/thumbs/granny.webp" alt="Granny" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/shell-shockers" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_shell_shockers" data-name="Shell Shockers" aria-label="Shell Shockers">
+            <img src="assets/thumbs/shell-shockers.webp" alt="Shell Shockers" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/eaglercraft" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_eaglercraft" data-name="Eaglercraft" aria-label="Eaglercraft">
+            <img src="assets/thumbs/eaglercraft.webp" alt="Eaglercraft" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/1v1-lol-reloaded" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_1v1_lol" data-name="1v1 Lol Reloaded" aria-label="1v1 Lol Reloaded">
+            <img src="assets/thumbs/1v1-lol-reloaded.webp" alt="1v1 Lol Reloaded" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/geometry-vibes" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_geometry_vibes" data-name="Geometry Vibes" aria-label="Geometry Vibes">
+            <img src="assets/thumbs/geometry-vibes.webp" alt="Geometry Vibes" width="40" height="40">
+          </a>
+          <a class="popular-item" href="https://www.gamevgames.com/game/among-us-online-edition" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="popular_among_us" data-name="Among Us Online" aria-label="Among Us Online">
+            <img src="assets/thumbs/among-us-online.webp" alt="Among Us Online" width="40" height="40">
+          </a>
+        </div>
+      </div>
+    </details>
+  </header>
+
+  <main class="desktop-shell">
+    <section class="center-game" id="gameShell">
+      <div class="game-card">
+        <div class="game-frame-wrap">
+          <iframe
+            id="gameFrame"
+            class="game-iframe"
+            title="Flip Duel"
+            allow="fullscreen; autoplay; gamepad; keyboard-map; clipboard-write"
+            allowfullscreen
+          ></iframe>
+          <div class="play-screen" id="playScreen">
+            <div class="play-screen-inner">
+              <img src="assets/logo.png" alt="Flip Duel">
+              <button class="play-btn" id="playBtn" type="button">
+                <span class="play-main">Play</span>
+                <span class="play-sub">Free now</span>
+              </button>
+              <p class="play-status" id="playStatus" hidden>Loading game...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-actions">
+        <div class="bar-left">
+          <img class="bar-game-icon" src="assets/logo.png" alt="">
+          <span>Flip Duel</span>
+        </div>
+        <div class="bar-center">
+          <button class="hide-bar-btn" id="hideBarBtn" type="button">
+            <i data-lucide="eye-off"></i>
+            Hide bar
+          </button>
+        </div>
+        <div class="bar-right">
+          <button class="bar-btn" id="likeBtn" type="button" data-tooltip="Like" aria-label="Like">
+            <i data-lucide="thumbs-up" class="btn-icon"></i>
+            <span id="likeCount" data-count="1100">1.1K</span>
+          </button>
+          <button class="bar-btn" id="dislikeBtn" type="button" data-tooltip="Dislike" aria-label="Dislike">
+            <i data-lucide="thumbs-down" class="btn-icon"></i>
+            <span id="dislikeCount" data-count="98">98</span>
+          </button>
+          <button class="bar-btn" id="controlsBtn" type="button" data-tooltip="Controls" aria-label="Controls">
+            <i data-lucide="keyboard" class="btn-icon"></i>
+          </button>
+          <button class="bar-btn" id="shareBtn" type="button" data-tooltip="Share" aria-label="Share">
+            <i data-lucide="share-2" class="btn-icon"></i>
+          </button>
+          <button class="bar-btn" id="fullscreenBtn" type="button" data-tooltip="Fullscreen" aria-label="Fullscreen">
+            <i data-lucide="maximize" class="btn-icon"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="gh-modal" id="controlsModal" hidden>
+        <div class="gh-modal-box">
+          <button class="modal-close" type="button" data-close-modal aria-label="Close">
+            <i data-lucide="x"></i>
+          </button>
+          <h2>Controls</h2>
+          <div class="controls-grid">
+            <div>
+              <h3>1 Player</h3>
+              <p>Mouse: control the character and perform flips</p>
+              <p>WASD: character controls</p>
+              <p>Skill panel (right): add, remove, and switch flip moves</p>
+            </div>
+            <div>
+              <h3>Same PC - 2 Players</h3>
+              <p>Player 1: WASD</p>
+              <p>Player 2: Arrow keys</p>
+              <p>Use the skill panel to pick tricks before you jump</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="info-section" id="how-to-play">
+    <article class="game-article">
+      <h1>Flip Duel - Free Parkour Flipping Game</h1>
+      <ul class="game-meta-list">
+        <li><span>Developer</span> <a href="https://www.gamevgames.com" target="_blank" rel="noopener noreferrer" data-track="outbound" data-track-label="gamevgames_developer">gameVgames</a></li>
+        <li><span>Released</span> September 2026</li>
+        <li><span>Technology</span> HTML5</li>
+        <li><span>Platforms</span> Browser (desktop, phone, tablet)</li>
+      </ul>
+
+      <h2>About Flip Duel</h2>
+      <p>
+        Flip Duel is a fast parkour flipping game built around timing, skill combos, tight landing zones, and ragdoll crashes.
+        Play it in your browser, stick the landing, or watch the wipeout when the timing is off.
+      </p>
+      <p>
+        Start in 1 Player campaign, challenge a friend in local 2 Player, or stay in FreeStyle until the life bar runs out.
+        There are 8 levels, 80 parkour challenges, unlockable flip skills, and six characters.
+      </p>
+
+      <h2>How to Play Flip Duel</h2>
+      <p>
+        The game loads in the frame above. Click the game so keyboard and mouse input go to Flip Duel.
+        Charge the jump, pick a flip skill, then land feet-first on the platform.
+      </p>
+
+      <h3>Core controls</h3>
+      <ul>
+        <li>Mouse: control the character and perform flips</li>
+        <li>WASD: character movement</li>
+        <li>Skill panel: add, remove, or switch flip moves</li>
+        <li>Same PC 2 Players: Player 1 uses WASD, Player 2 uses Arrow keys</li>
+        <li>Mobile: tap the screen and use on-screen skill buttons</li>
+      </ul>
+
+      <h3>Game modes</h3>
+      <ul>
+        <li>1 Player: full parkour campaign from The Field through 80 stages.</li>
+        <li>2 Player: local duel on the same keyboard.</li>
+        <li>FreeStyle: keep clearing jumps until the health bar is empty.</li>
+      </ul>
+
+      <h2>Tips</h2>
+      <ul>
+        <li>Choose the skill before you jump. Rotation speed has to match the landing zone.</li>
+        <li>Release just before your feet hit the platform so you stay upright.</li>
+        <li>Narrow platforms punish extra spin. Drop a fast trick if the pad is small.</li>
+        <li>Mix Pike, Scissor, Knee Tuck, Layout, Viper, and Super Flip as they unlock.</li>
+      </ul>
+
+      <h2>FAQ</h2>
+      <h3>Is Flip Duel free?</h3>
+      <p>Yes. Play it in the browser with no download.</p>
+      <h3>Can I play with a friend?</h3>
+      <p>Yes. Use 2 Player mode on the same computer.</p>
+      <h3>Does Flip Duel work on mobile?</h3>
+      <p>Yes. Touch controls work on phone and tablet. Landscape is usually easier.</p>
+    </article>
+  </section>
+
+  <footer class="site-footer">
+    <p>Flip Duel · Play free in your browser</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
